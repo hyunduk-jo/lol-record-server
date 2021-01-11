@@ -1,0 +1,33 @@
+{
+  "name": "lol-record-server",
+  "version": "1.0.0",
+  "description": "LOL record search server with Express",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunduk-jo/lol-record-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunduk-jo/lol-record-server/issues"
+  },
+  "homepage": "https://github.com/hyunduk-jo/lol-record-server#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
